@@ -32,6 +32,12 @@ if (a !== b) //true (değişkenlerin değerleri eşit ancak tipleri eşit olmad�
 let c = 1234;
 let d = 123;
 console.log(a > b); // true 
+
+let e = 2, f = 'hello';
+
+console.log(e !== 2); // false
+console.log(e !== '2'); // true
+console.log(f !== 'Hello'); // true
 ```
 
 
@@ -85,6 +91,15 @@ true       | true       | true
 true       | false      | false
 false      | true       | false
 false      | false      | false
+```
+|| Örnek:
+
+```javascript
+const a = true, b = false, c = 4;
+
+console.log(a || b); // true
+console.log(b || b); // false
+console.log((c>2) || (c<2)); // true
 ```
 
 && operatörünün *true* dönmesi için tüm değişkenlerin *true* olması gerekir.
