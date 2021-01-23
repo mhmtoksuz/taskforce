@@ -37,7 +37,7 @@ let e = 2, f = 'hello';
 
 console.log(e !== 2); // false
 console.log(e !== '2'); // true
-console.log(f !== 'Hello'); // true
+console.log(f !== 'Hello'); // true  
 ```
 
 
